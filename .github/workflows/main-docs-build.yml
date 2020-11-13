@@ -3,6 +3,7 @@ name: main-documentation
 on:
   push:
     branches:
+    - master
     - main
 jobs:
   build-adocs:
